@@ -32,7 +32,8 @@ enum {
     CMD_SET_BAUDRATE = 0x02, // Set the baud rate
     CMD_FFC_CALIBRATION = 0x03,
     CMD_SHEET_WRITE = 0x04,
-    CMD_SHEET_READ = 0X05
+    CMD_SHEET_READ = 0X05,
+    CMD_VERSION_READ = 0x06
 };
 
 enum {
@@ -115,18 +116,20 @@ typedef struct { // addr, value
 } reg_t;
 
 extern QSerialPort g_serialPort; // Declare an external class
+extern QString g_fpgaVersion, g_softKernelVersion;
 uint32_t hton32(uint32_t host); // 32-bit network byte order processing
 uint16_t hton16(uint16_t host); // 16-bit network byte order processing
 
 int SendCmdSheetWrite(QSerialPort *dev, uint16_t pktNum); // cmd sheet write
 int ParseResponseCmdSheetWriteAck(QSerialPort *dev);
 int SendCmdSheetRead(QSerialPort *dev, uint16_t *pktNum); // cmd sheet read
+int SendCmdVersionRead(void);
 
 void ClearUart(QSerialPort *dev);
 bool OpenSerialPort(QSerialPort *serialPort);
 void UartWriteBuf(QSerialPort *serialPort, const char *buf, int len);
 int UartReadBuf(QSerialPort *serialPort, const char *buf);
-int UartReadBuf(QSerialPort *serialPort, char *buf, int maxSize, int timeoutMs);
+int UartReadBuf(QSerialPort *serialPort, char *buf, int timeoutMs);
 void ClearUart(QSerialPort *dev);
 bool ConfigureSerialPort(QSerialPort *serialPort, int baudRate, const QString &text);
 int MakeUartPacket(uint8_t op, uint32_t addr, uint32_t value, int readLen, uint8_t *uartBuf);

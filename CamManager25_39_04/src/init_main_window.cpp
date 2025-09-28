@@ -13,6 +13,7 @@
 #include "common.h"
 #include "libusb.h"
 #include "usb.h"
+#include "uart.h"
 #include "../QLogger/QLoggerLevel.h"
 #include "../QLogger/QLoggerWriter.h"
 #include "../QLogger/QLogger.h"
@@ -30,21 +31,28 @@
 #include <QTreeWidget>
 #include <QProxyStyle>
 #include <QPainter>
+#include <QClipboard>
+#include <QToolTip>
+#include <QMouseEvent>
+#include <QApplication>
+#include <QCursor>
+#include <QDir>
+#include "toolbar_ctrl.h"
 
-// 自定义白色箭头样式
+// Customize the white arrow style
 class WhiteArrowStyle : public QProxyStyle {
 public:
     using QProxyStyle::QProxyStyle;
     void drawPrimitive(PrimitiveElement element, const QStyleOption *option,
                        QPainter *painter, const QWidget *widget = nullptr) const override {
         if (element == QStyle::PE_IndicatorBranch) {
-            // 获取当前item
+            // get current item
             const QTreeView *tree = qobject_cast<const QTreeView *>(widget);
             if (tree) {
                 QModelIndex index = tree->indexAt(option->rect.center());
                 if (index.isValid()) {
                     QString text = index.data().toString();
-                    // 只给“USB图像”画箭头
+                    // Only draw an arrow for "USB Image"
                     if (text == "USB图像") {
                         painter->save();
                         painter->setRenderHint(QPainter::Antialiasing, true);
@@ -64,7 +72,7 @@ public:
                         painter->drawPolygon(arrow);
                         painter->restore();
                     }
-                    // 其它项不画箭头，直接return
+                    // For other items, do not draw arrows; just return directly
                     return;
                 }
             }
@@ -82,7 +90,7 @@ QSplitter *g_splitter = nullptr;
 QTabBar *g_tabBar = nullptr;
 QStackedWidget *g_stackedWidget = nullptr;
 QTreeWidget *g_tabList = nullptr;
-
+QString g_fpgaVersion, g_softKernelVersion; // The version number read through the serial port
 
 MainWindowTab g_mainWindowTab[TAB_PAGE_NUM] = {
     { TAB_PAGE_REG, "寄存器控制" },
@@ -118,7 +126,7 @@ QTabWidget* CreatePages(MainWindow &w) {
         " }"
         "QTabWidget::pane { border: 0px solid #222; background: #888; }"
         );
-    // 使用应用程序全局字体，而不是硬编码字体
+    // Use the global font of the application instead of hard-coded fonts
     tabWidget->setFont(QApplication::font());
 
     page_h = w.height();
@@ -127,7 +135,7 @@ QTabWidget* CreatePages(MainWindow &w) {
     for (int i = 0; i < TAB_PAGE_NUM; i++) {
         QWidget *pageWidget = new QWidget;
         pageWidget->resize(page_w, page_h);
-        // 只为“寄存器控制”和“在线升级”添加icon
+        // Add ICONS only for "Register Control" and "Online Upgrade"
         if (g_mainWindowTab[i].num == TAB_PAGE_REG || g_mainWindowTab[i].num == TAB_PAGE_UPDATE) {
             QString iconPath = QDir::cleanPath(QCoreApplication::applicationDirPath() + "/1.png");
             QIcon tabIcon(iconPath);
@@ -148,7 +156,7 @@ QTabWidget* CreatePages(MainWindow &w) {
 
 QStackedWidget* CreateStackedWidget(MainWindow &w) {
     QStackedWidget *stackedWidget = new QStackedWidget;
-    // 创建每个页面
+    // Create each page
     for (int i = 0; i < TAB_PAGE_NUM; i++) {
         QWidget *pageWidget = new QWidget;
         pageWidget->resize(w.width(), w.height());
@@ -175,7 +183,7 @@ QTreeWidget* CreateTabTree() {
         "QTreeWidget::item:selected:focus { outline: none; border: none;  padding-left: 10px; }"
         "QTreeWidget::item:hover { background: #333; color: #FFF; outline: none; border: none;  padding-left: 10px; }"
     );
-    // 使用应用程序全局字体，而不是硬编码字体
+
     QFont font = getApplicationFont(12);
     tree->setFont(font);
     tree->setIndentation(18);
@@ -195,7 +203,6 @@ QTreeWidget* CreateTabTree() {
             sub->setText(0, " 开始");
             sub->setIcon(0, QIcon());
             sub->setData(0, Qt::UserRole, 1000); // 特殊标记
-            // 使用应用程序全局字体，而不是硬编码字体
             QFont subFont = getApplicationFont(10);
             sub->setFont(0, subFont);
             item->addChild(sub);
@@ -209,6 +216,7 @@ QTreeWidget* CreateTabTree() {
 }
 
 void InitMainWindowWidgets(MainWindow &w) {
+    int ret = 0;
 
     if (!w.centralWidget()) {
         qDebug() << "Error: Central widget not set, creating default";
@@ -262,7 +270,7 @@ void InitMainWindowWidgets(MainWindow &w) {
     width = 1600;
     height = 800;
 #else
-    TopName = "CamManager " + QString(VERSION);
+    TopName = "CamManager";
     w.setWindowTitle(TopName);
     width = 1000;
     height = 600;
@@ -399,13 +407,12 @@ void InitMainWindowWidgets(MainWindow &w) {
     );
 #endif
 
-    // 添加顶部工具栏
+    // Add the top toolbar
     QToolBar *toolBar = new QToolBar(&w);
     toolBar->setMovable(false);
     toolBar->setIconSize(QSize(24, 24));
 
-    // 1. 创建logo标签
-    // 顶部工具栏左侧显示logo.png
+    // add logo png
     QLabel *logoLabel = new QLabel(toolBar);
     QString logoPath = QDir::cleanPath(QCoreApplication::applicationDirPath() + "/logo.png");
     QPixmap logoPixmap(logoPath);
@@ -417,26 +424,41 @@ void InitMainWindowWidgets(MainWindow &w) {
         logoLabel->setFixedSize(32, 32);
         logoLabel->setStyleSheet("color: #FFF; background: #444;");
     }
-    toolBar->addWidget(logoLabel); // 先加logo
+    toolBar->addWidget(logoLabel); // add logo
 
     QAction *openAction = new QAction("打开", toolBar);
     QAction *saveAction = new QAction("保存", toolBar);
     QAction *settingsAction = new QAction("设置", toolBar);
     QAction *helpAction = new QAction("帮助", toolBar);
+    QAction *aboutAction = new QAction("关于", toolBar);
     toolBar->addAction(openAction);
     toolBar->addAction(saveAction);
     toolBar->addAction(settingsAction);
     toolBar->addAction(helpAction);
+    toolBar->addAction(aboutAction);
     w.addToolBar(Qt::TopToolBarArea, toolBar);
 
     toolBar->setStyleSheet(
         "QToolBar { background: #444; min-height: 36px; }"
         "QToolButton { background: #444; color: #FFF; font-size: 16px; padding: 6px 16px; }"
-        //"QToolButton:hover { background: #444; }"
+        "QToolButton:hover { background: #555; }"
     );
 
-    // 延迟连接信号槽，避免初始化时的触发
-    QTimer::singleShot(0, [&w]() {
+    /* toolbar about function slot */
+    QObject::connect(aboutAction, &QAction::triggered, [&w, &ret]() {
+        if (!g_versionParse) {
+            if ((ret = SendCmdVersionRead()) < 0) {
+                debugNoQuote() << "read softkernel & fpga Version error";
+            } else {
+                g_versionParse = true;
+            }
+        }
+
+        AboutDialog aboutDialog(&w, g_fpgaVersion, g_softKernelVersion);
+        aboutDialog.exec();
+    });
+
+    QTimer::singleShot(0, [&w]() { // Delay the connection signal slot to avoid triggering during initialization
 
         QObject::connect(&w, &MainWindow::resized, [&w]() {
 
@@ -445,8 +467,7 @@ void InitMainWindowWidgets(MainWindow &w) {
         QObject::connect(&w, &MainWindow::updateUi, &w, &MainWindow::UpdateUi);
 
     });
-    // Tab切换信号
-    QObject::connect(g_tabList, &QTreeWidget::itemClicked, [&](QTreeWidgetItem *item, int column){
+    QObject::connect(g_tabList, &QTreeWidget::itemClicked, [&](QTreeWidgetItem *item, int column){ // Tab switch signal
         int role = item->data(0, Qt::UserRole).toInt();
 
 #ifdef MODULE_USB3
@@ -459,11 +480,11 @@ void InitMainWindowWidgets(MainWindow &w) {
             g_usbWidgets.UsbStartStopBtnClickedEvent();
 
             // 切换文本
-        if (item->text(0) == " 开始") {
-            item->setText(0, " 停止");
-        } else {
-            item->setText(0, " 开始");
-        }
+            if (item->text(0) == " 开始") {
+                item->setText(0, " 停止");
+            } else {
+                item->setText(0, " 开始");
+            }
         }
 #endif
 

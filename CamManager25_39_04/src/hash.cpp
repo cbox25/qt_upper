@@ -46,7 +46,7 @@ void sha256_init(SHA256_CTX *ctx) {
 }
 
 // SHA-256 transformation function
-void sha256_transform(SHA256_CTX *ctx, const uint8_t data[]) {
+void sha256_transform(SHA256_CTX *ctx, const uint8_t *data) {
     uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
 
     // Convert the data from big-endian order to little-endian order and copy it into the message array
@@ -93,7 +93,7 @@ void sha256_transform(SHA256_CTX *ctx, const uint8_t data[]) {
 }
 
 // SHA-256 Update function
-void sha256_update(SHA256_CTX *ctx, const uint8_t data[], size_t len) {
+void sha256_update(SHA256_CTX *ctx, const uint8_t *data, size_t len) {
     uint32_t i;
 
     for (i = 0; i < len; ++i) {
@@ -108,7 +108,7 @@ void sha256_update(SHA256_CTX *ctx, const uint8_t data[], size_t len) {
 }
 
 // SHA-256 Finalization function
-void sha256_final(SHA256_CTX *ctx, uint8_t hash[]) {
+void sha256_final(SHA256_CTX *ctx, uint8_t *hash) {
     uint32_t i = ctx->datalen;
 
     // Fill data

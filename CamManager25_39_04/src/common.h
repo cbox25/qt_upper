@@ -38,7 +38,7 @@ printf("file: %s, func: %s, line: %d, " format, __FILE__, __func__, __LINE__, ##
 #define ntoh32(x) hton32(x)
 
 extern bool regFileParsed; // 外部变量声明 csv表格是否解析
-extern int regCnt; // 外部变量声明 reg数量
+extern int g_regCnt; // 外部变量声明 reg数量
 
 class CustomDebug {
 public:

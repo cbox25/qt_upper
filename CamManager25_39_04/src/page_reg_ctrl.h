@@ -91,6 +91,7 @@ public:
 class UiLabelData {
 public:
     QLabel *label;
+    QPushButton *btn;
     QLineEdit *lineEdit;
     QString name;
     uint32_t addr;
@@ -139,8 +140,8 @@ void RegCtrlHexBtnClickedEvent(QRadioButton *hexBtn);
 void RegCtrlDecBtnClickedEvent(QRadioButton *decBtn);
 void SaveArgsBtnClickedEvent(QObject *sender);
 
-void RefreshTempBtnClickedEvent(QObject *sender);
-void RefreshImageAvgValueBtnClickedEvent(QObject *sender);
+void RefreshTempBtnClickedEvent(void);
+void RefreshImageAvgValueBtnClickedEvent(void);
 void RefreshSheet(void);
 int ReadCsvCmd(uint16_t *pktNum);
 int ReadCsvData(uint16_t pktNum, uint16_t *regNum);

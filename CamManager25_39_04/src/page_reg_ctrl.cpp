@@ -32,7 +32,8 @@ Reg g_regs[REG_NUM_MAX];
 UiRegWidgetsInfo g_regWidgetsInfo[REG_CTRL_PAGE_NUM] = { {nullptr} }; // Explicitly initialize to nullptr
 QMutex g_uartMutex;
 extern int g_tabWidgetIndex;
-int regCnt = 0;
+int g_regCnt = 0;
+bool g_versionParse = false; // Record whether the version number is read and parsed when the serial port number remains unchanged
 
 #if defined(PRJ201)
     void *g_pageWidgets2[REG_NUM_MAX];
@@ -92,10 +93,10 @@ UiLabelData g_labelData[READ_ONLY_DATA_NUM_MAX] = {
 #elif defined(INTERNAL)
 UiLabelData g_labelData[READ_ONLY_DATA_NUM_MAX] = {
     /* label, lineEdit, name, addr, data */
-    {NULL, NULL, "温度 ℃", 0x44A209F4, "0"},
-    {NULL, NULL, "k", 0x00, "1"},
-    {NULL, NULL, "b", 0x00, "0"},
-    {NULL, NULL, "图像均值", 0x44A20A08, "0"}
+    {NULL, NULL, NULL, "温度 ℃", 0x44A209F4, "0"},
+    {NULL, NULL, NULL, "k", 0x00, "0"},
+    {NULL, NULL, NULL, "b", 0x00, "0"},
+    {NULL, NULL, NULL, "图像均值", 0x44A20A08, "0"}
 };
 #endif
 
@@ -181,8 +182,8 @@ void ParseLine(const QString& line)
 {
     const int COMMA_NUM = 9;
 
-    if (regCnt >= REG_NUM_MAX) {
-        qDebug() << "Error: regCnt exceeded REG_NUM_MAX:" << regCnt << ", REG_NUM_MAX:" << REG_NUM_MAX;
+    if (g_regCnt >= REG_NUM_MAX) {
+        qDebug() << "Error: regCnt exceeded REG_NUM_MAX:" << g_regCnt << ", REG_NUM_MAX:" << REG_NUM_MAX;
         return;
     }
 
@@ -212,7 +213,7 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning name:" << nameStr;
-    g_regs[regCnt].name = nameStr;
+    g_regs[g_regCnt].name = nameStr;
 
     // Assign addr
     QString addrStr = line.mid(commaPos[0] + 1, commaPos[1] - commaPos[0] - 1).trimmed();
@@ -221,7 +222,7 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning addr:" << addrStr;
-    g_regs[regCnt].addr = addrStr.mid(2).toUInt(nullptr, 16);
+    g_regs[g_regCnt].addr = addrStr.mid(2).toUInt(nullptr, 16);
 
     // Assign max
     QString maxStr = line.mid(commaPos[1] + 1, commaPos[2] - commaPos[1] - 1).trimmed();
@@ -230,7 +231,7 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning maxValue:" << maxStr;
-    g_regs[regCnt].max = maxStr.toUInt();
+    g_regs[g_regCnt].max = maxStr.toUInt();
 
     // Assign min
     QString minStr = line.mid(commaPos[2] + 1, commaPos[3] - commaPos[2] - 1).trimmed();
@@ -239,7 +240,7 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning minValue:" << minStr;
-    g_regs[regCnt].min = minStr.toUInt();
+    g_regs[g_regCnt].min = minStr.toUInt();
 
     // Assign default
     QString defaultStr = line.mid(commaPos[3] + 1, commaPos[4] - commaPos[3] - 1).trimmed();
@@ -248,7 +249,7 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning defaultValue:" << defaultStr;
-    g_regs[regCnt].defaultValue = defaultStr.toUInt();
+    g_regs[g_regCnt].defaultValue = defaultStr.toUInt();
 
     // Assign value
     QString valueStr = line.mid(commaPos[4] + 1, commaPos[5] - commaPos[4] - 1).trimmed();
@@ -257,7 +258,7 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning value:" << valueStr;
-    g_regs[regCnt].value = valueStr.toUInt();
+    g_regs[g_regCnt].value = valueStr.toUInt();
 
     // Assign save
     QString saveStr = line.mid(commaPos[5] + 1, commaPos[6] - commaPos[5] - 1).trimmed();
@@ -266,7 +267,7 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning saveValue:" << saveStr;
-    g_regs[regCnt].save = saveStr.toUInt();
+    g_regs[g_regCnt].save = saveStr.toUInt();
 
     // Assign visible
     QString visibleStr = line.mid(commaPos[6] + 1, commaPos[7] - commaPos[6] - 1).trimmed();
@@ -275,7 +276,7 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning visibleValue:" << visibleStr;
-    g_regs[regCnt].visible = visibleStr.toUInt();
+    g_regs[g_regCnt].visible = visibleStr.toUInt();
 
     // Assign delay
     QString delayStr = line.mid(commaPos[7] + 1, commaPos[8] - commaPos[7] - 1).trimmed();
@@ -284,19 +285,19 @@ void ParseLine(const QString& line)
         return;
     }
     debugNoQuote() << "Assigning delayValue:" << delayStr;
-    g_regs[regCnt].delay = delayStr.toUInt();
+    g_regs[g_regCnt].delay = delayStr.toUInt();
 
     // Assign tips
     QString tipText = line.mid(commaPos[8] + 1).trimmed();
     debugNoQuote() << "Assigning tipText:" << tipText;
-    g_regs[regCnt].tipText = tipText;
+    g_regs[g_regCnt].tipText = tipText;
 
-    regCnt++;
+    g_regCnt++;
 }
 
 int ReadRegFile(const QString& filename)
 {
-    regCnt = 0; // Reset regCnt
+    g_regCnt = 0; // Reset g_regCnt
     QString fullPath = QDir(QCoreApplication::applicationDirPath()).filePath(filename);
 
     QFile file(fullPath);
@@ -319,7 +320,7 @@ int ReadRegFile(const QString& filename)
     }
     file.close();
 
-    return regCnt;
+    return g_regCnt;
 }
 
 void SendWriteRegBuf(uint32_t addr, uint32_t value)
@@ -590,12 +591,15 @@ void UartComboBoxActivatedEvent(QComboBox* comboBox, const QString &text)
 {
     QSerialPort *serialPort = &g_serialPort;
     static QString lastText = "关闭";
-    int ret = 0, parse = 0;
+    int ret = 0;
     uint16_t pktNum = 0, regNum = 0;
 
     if (text == lastText) {
         return;
     }
+    g_versionParse = false;
+    g_fpgaVersion = "";
+    g_softKernelVersion = "";
 
     if (lastText != "关闭") {
         // close the last uart and delete
@@ -607,8 +611,7 @@ void UartComboBoxActivatedEvent(QComboBox* comboBox, const QString &text)
 
     if (text != "关闭") {
         ConfigureSerialPort(serialPort, 115200, text);
-        // open serial port
-        if (OpenSerialPort(serialPort)) {
+        if (OpenSerialPort(serialPort)) { // open serial port
             qDebug() << "Serial port opened successfully" << serialPort->portName() << comboBox->currentIndex();
             QLog_Debug("CamManager", "Serial port opened successfully");
         } else {
@@ -617,12 +620,18 @@ void UartComboBoxActivatedEvent(QComboBox* comboBox, const QString &text)
         }
         SyncComboBoxIndex(comboBox->currentIndex());
 
+        if ((ret = SendCmdVersionRead()) < 0) {
+            debugNoQuote() << "read softkernel & fpga Version error";
+        } else {
+            g_versionParse = true;
+        }
+
         if ((ret = ReadCsvCmd(&pktNum)) < 0) {
             debugNoQuote() << "read csv sheet error";
             return;
         }
 
-        if ((parse = ReadCsvData(pktNum, &regNum)) < 0) {
+        if ((ret = ReadCsvData(pktNum, &regNum)) < 0) {
             debugNoQuote() << "read csv sheet error";
             return;
         }
@@ -642,8 +651,7 @@ void UartComboBoxActivatedEvent(QComboBox* comboBox, const QString &text)
             return;
         }
 
-        // Get the current scroll area
-        if (g_tabWidgetIndex == TAB_PAGE_REG) {
+        if (g_tabWidgetIndex == TAB_PAGE_REG) { // Get the current scroll area
             scroll = g_scrollArea ? g_scrollArea->widget() : nullptr;
         } else {
             scroll = g_stackedWidget->widget(g_tabWidgetIndex);
@@ -653,13 +661,11 @@ void UartComboBoxActivatedEvent(QComboBox* comboBox, const QString &text)
             return;
         }
 
-        // Calculate the appropriate position
-        int labelX = 0, labelY = 65;
-        // Refresh the register list
-        RefreshRegList(uiRegWidgets, scroll, regNum, labelX, labelY);
+        int labelX = 0, labelY = 65; // Calculate the appropriate position
+        RefreshRegList(uiRegWidgets, scroll, regNum, labelX, labelY); // Refresh the register list
+    } else {
+        SyncComboBoxIndex(comboBox->currentIndex());
     }
-
-    SyncComboBoxIndex(comboBox->currentIndex());
 }
 
 QComboBox *CreateComboBox(QWidget *parent, int x, int y, int w, int h, QFont &font)
@@ -1105,9 +1111,9 @@ int ReadCsvData(uint16_t pktNum, uint16_t *regNum)
 
         timer.start();
         do {
-            readLen = UartReadBuf(&g_serialPort, (char *)readBuf);
+            readLen = UartReadBuf(&g_serialPort, (char *)readBuf, 90);
             DelayMs(10);
-        } while (readLen == 0 && timer.elapsed() < 5000);
+        } while (readLen == 0 && timer.elapsed() < 2000);
 
         if (readLen <= 0) {
             QLog_Error("CamManager", QString("[%1] [%2:%3] get uart read data failed")
@@ -1144,7 +1150,6 @@ int ReadCsvData(uint16_t pktNum, uint16_t *regNum)
         memcpy(&packet.crc, buf + head_len + data_len, crc_len);
         crc16 = calc_crc16(buf, head_len + data_len); /* calc crc16 */
         if (crc16 != packet.crc) {
-            debugNoQuote() << QString("%1").arg(crc16, 4, 16, QChar('0')).toUpper() << QString("%1").arg(packet.crc, 4, 16, QChar('0')).toUpper() << "read crc:";
             PrintBuf((const char *)buf, data_len + 12, "data:");
             qDebug() << "ReadCsvData crc error";
             debugNoQuote() << "ERROR 5" << "readLen" << readLen;
@@ -1233,7 +1238,7 @@ void RefreshBtnClickedEvent(QObject *sender)
     uiRegWidgets2->labelData[2].lineEdit->setText(version);
 }
 #elif defined(PRJ_CIOMP) || defined(INTERNAL)
-void RefreshTempBtnClickedEvent(QObject *sender)
+void RefreshTempBtnClickedEvent(void)
 {
     uint8_t readBuf[8] = {0};
     int readLen = 0;
@@ -1272,7 +1277,7 @@ void RefreshTempBtnClickedEvent(QObject *sender)
     QLog_Debug("CamManager", logMessage);
 }
 
-void RefreshImageAvgValueBtnClickedEvent(QObject *sender)
+void RefreshImageAvgValueBtnClickedEvent(void)
 {
     uint8_t readBuf[8] = {0};
     int readLen = 0, t = 0;
@@ -1352,7 +1357,7 @@ void RefreshSheet()
     calculate_hash(zipfile_space + 128, (uint32_t)zipfile_size, hash_buf, &hash_size);
     memcpy(zipfile_space + 4, hash_buf, hash_size);
 
-    if(total_size % UART_PACKET_LEN_MAX) {
+    if (total_size % UART_PACKET_LEN_MAX) {
         filePktNum = total_size / PACKET_DATA_SIZE + 1;
     } else {
         filePktNum = total_size / PACKET_DATA_SIZE;
@@ -1732,7 +1737,7 @@ void CreateRegList(QWidget *scroll, UiRegWidgetsInfo *uiRegWidgets, int regNum, 
         // Set the input box
         edit->setMinimumSize(200, 40);
         edit->setMaximumSize(300, 40);
-        edit->setStyleSheet("QLineEdit { border: 2px solid #4A4A4D; background-color: #141519; color: #FFF; }");
+        edit->setStyleSheet("QLineEdit { border: 2px solid #4A4A4D; background-color: #141519; color: #FFFFFF; }");
         edit->setFont(font);
         edit->setReadOnly(false);
         edit->setText(QString::number(g_regs[i].value));
@@ -2039,8 +2044,7 @@ QScrollArea *CreateRegCtrlWidgets(QWidget *pageRegCtrl, int tabNum)
     int sliderW = 0;
     int editW = 200;
     int comboxW = labelW - 60;
-    int regNum = 0;
-    int regNumVisible = 0;
+    int regNum = 0, regNumVisible = 0;
     QFont font;
     QScrollArea *scrollArea = nullptr;
     QWidget *scroll = nullptr;
@@ -2187,67 +2191,48 @@ QScrollArea *CreateRegCtrlWidgets(QWidget *pageRegCtrl, int tabNum)
     QObject::connect(saveArgsBtn, &QPushButton::clicked, [saveArgsBtn]() {
         SaveArgsBtnClickedEvent(saveArgsBtn);
     });
-
-    // Create the refresh temperature button
-    QPushButton *refreshTempBtn = new QPushButton("刷新温度", scroll);
-    refreshTempBtn->setFont(font);
-    refreshTempBtn->setMinimumHeight(40);
-    refreshTempBtn->setMinimumWidth(180);
-    refreshTempBtn->setStyleSheet("QPushButton { background: transparent !important; color: #FFF; border: 1px solid #888; border-radius: 6px; }");
-    rightLayout->addWidget(refreshTempBtn);
-
-    // Refresh temperature button slot
-    QObject::connect(refreshTempBtn, &QPushButton::clicked, [refreshTempBtn]() {
-        RefreshTempBtnClickedEvent(refreshTempBtn);
-    });
-
-    // Create the refresh image average value button
-    QPushButton *refreshImageBtn = new QPushButton("刷新图像均值", scroll);
-    refreshImageBtn->setFont(font);
-    refreshImageBtn->setMinimumHeight(40);
-    refreshImageBtn->setMinimumWidth(180);
-    refreshImageBtn->setStyleSheet("QPushButton { background: transparent !important; color: #FFF; border: 1px solid #888; border-radius: 6px; }");
-    rightLayout->addWidget(refreshImageBtn);
-
-    // Refresh image average value button slot
-    QObject::connect(refreshImageBtn, &QPushButton::clicked, [refreshImageBtn]() {
-        RefreshImageAvgValueBtnClickedEvent(refreshImageBtn);
-    });
-
 // initialize labelData
 #if defined(PRJ201)
     uiRegWidgets->labelData = g_labelData[g_tabWidgetIndex];
+    readOnlyRegLabelW = uiRegWidgets->comboBox->width();
 #elif defined(PRJ_CIOMP) || defined(INTERNAL)
     uiRegWidgets->labelData = g_labelData;
 #endif
-
     // Add read-only data to the right side
-    for (int i = 0; i < READ_ONLY_DATA_NUM_MAX; i++) {
+    for (int i = 0; i < READ_ONLY_DATA_NUM_MAX; i ++) {
         QHBoxLayout *readOnlyRowLayout = new QHBoxLayout();
 
         uiRegWidgets->labelData[i].label = new QLabel(scroll);
-        uiRegWidgets->labelData[i].label->setText(uiRegWidgets->labelData[i].name);
-        uiRegWidgets->labelData[i].label->setFont(font);
-        uiRegWidgets->labelData[i].label->setMinimumSize(100,40);
-        uiRegWidgets->labelData[i].label->setStyleSheet("QLabel { color: #FFF; background: transparent !important; }");
+        uiRegWidgets->labelData[i].btn = new QPushButton(scroll);
+        if (i == 0 || i == 3) {
+            uiRegWidgets->labelData[i].btn->setText(uiRegWidgets->labelData[i].name);
+            uiRegWidgets->labelData[i].label->setVisible(false);
+            uiRegWidgets->labelData[i].btn->setFont(font);
+            uiRegWidgets->labelData[i].btn->setMinimumSize(100,40);
+            uiRegWidgets->labelData[i].btn->setStyleSheet("QPushButton { background: transparent !important; color: #FFF; border: 1px solid #888; border-radius: 6px; }");
+        } else {
+            uiRegWidgets->labelData[i].label->setText(uiRegWidgets->labelData[i].name);
+            uiRegWidgets->labelData[i].btn->setVisible(false);
+            uiRegWidgets->labelData[i].label->setFont(font);
+            uiRegWidgets->labelData[i].label->setMinimumSize(100,40);
+            uiRegWidgets->labelData[i].label->setStyleSheet("QLabel { background: transparent !important; color: #FFF; border: 1px solid #888; border-radius: 6px; }");
+        }
 
         uiRegWidgets->labelData[i].lineEdit = new QLineEdit(scroll);
         uiRegWidgets->labelData[i].lineEdit->setFont(font);
         uiRegWidgets->labelData[i].lineEdit->setMinimumSize(75,40);
-
 #if defined(PRJ201)
         uiRegWidgets->labelData[i].lineEdit->setReadOnly(true);
         uiRegWidgets->labelData[i].lineEdit->setStyleSheet("QLineEdit { background: transparent !important; color: #FFF; border: 1px solid #888; border-radius: 6px; }");
 #elif defined(PRJ_CIOMP) || defined(INTERNAL)
         if (i == 0 || i == 3) {
             uiRegWidgets->labelData[i].lineEdit->setReadOnly(true);
-            uiRegWidgets->labelData[i].lineEdit->setStyleSheet("QLineEdit { background: transparent !important; color: #FFF; border: 1px solid #888; border-radius: 6px; }");
-        } else {
-            uiRegWidgets->labelData[i].lineEdit->setStyleSheet("QLineEdit { background: transparent !important; color: #FFF; border: 1px solid #888; border-radius: 6px; }");
         }
+        uiRegWidgets->labelData[i].lineEdit->setStyleSheet("QLineEdit { background: transparent !important; color: #FFF; border: 1px solid #888; border-radius: 6px; }");
 #endif
 
         readOnlyRowLayout->addWidget(uiRegWidgets->labelData[i].label);
+        readOnlyRowLayout->addWidget(uiRegWidgets->labelData[i].btn);
         readOnlyRowLayout->addWidget(uiRegWidgets->labelData[i].lineEdit);
 
         rightLayout->addLayout(readOnlyRowLayout);
@@ -2258,6 +2243,14 @@ QScrollArea *CreateRegCtrlWidgets(QWidget *pageRegCtrl, int tabNum)
     uiRegWidgets->labelData[1].lineEdit->setText(QString::number(0.04, 'f', 2));
     uiRegWidgets->labelData[2].lineEdit->setText(QString::number(1.00, 'f', 2));
     uiRegWidgets->labelData[3].lineEdit->setText(QString::number(0));
+
+    // refresh button slot
+    QObject::connect(uiRegWidgets->labelData[0].btn, &QPushButton::clicked, uiRegWidgets->labelData[0].btn, []() {
+        RefreshTempBtnClickedEvent();
+    });
+    QObject::connect(uiRegWidgets->labelData[3].btn, &QPushButton::clicked, uiRegWidgets->labelData[3].btn, []() {
+        RefreshImageAvgValueBtnClickedEvent();
+    });
 
     rightLayout->setContentsMargins(0,50,50,0); // Top left, bottom right
 

@@ -3,6 +3,13 @@
 
 #include "mainwindow.h"
 #include "common.h"
+#include <QDialog>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QLabel>
+#include <QPushButton>
+#include <QFrame>
+#include <QMouseEvent>
 
 typedef enum {
     TAB_PAGE_REG,
@@ -28,6 +35,7 @@ typedef struct {
 
 void InitMainWindowWidgets(MainWindow &w);
 
+extern bool g_versionParse;
 extern bool isInitDone ;
 extern bool uiInitialized;
 extern QTabWidget *g_tabWidgets;

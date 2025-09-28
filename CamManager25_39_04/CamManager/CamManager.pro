@@ -37,6 +37,7 @@ SOURCES += \
     ../src/page_reg_ctrl.cpp \
     ../src/page_update.cpp \
     ../src/page_usb.cpp \
+    ../src/toolbar_ctrl.cpp \
     ../src/uart.cpp \
     ../src/update_increase.cpp \
     ../src/usb.cpp \
@@ -78,6 +79,7 @@ HEADERS += \
     ../src/page_update.h \
     ../src/page_usb.h \
     ../src/prj_config.h \
+    ../src/toolbar_ctrl.h \
     ../src/uart.h \
     ../src/update_increase.h \
     ../src/usb.h \

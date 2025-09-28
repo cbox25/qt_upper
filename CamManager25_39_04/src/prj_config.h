@@ -2,7 +2,7 @@
 #define PRJ_CONFIG_H
 
 // #define VERSION ("v1.0.2.20250411.1") // major.submajor.minor.date.times
-#define VERSION ("v25.39.03") // year.week.number
+#define VERSION ("V1.25.39.04") // year.week.number
 
 // --- BOARD ---
 // #define PRJ201
