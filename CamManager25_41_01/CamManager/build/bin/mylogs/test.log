@@ -1,0 +1,547 @@
+[2025-09-26 16:21:29.526][22948][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:21:29.526] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:21:36.056][22948][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:21:36.056] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:22:26.239][24932][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 16:22:27.934][24932][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:22:27.934] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:22:29.787][24932][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:22:29.787] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:22:44.212][11748][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 16:22:45.491][11748][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:22:45.491] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:22:47.332][11748][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:22:47.332] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:22:50.756][11748][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:22:50.756] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:22:52.532][11748][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:22:52.532] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:22:54.004][11748][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:22:54.004] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:23:39.606][24332][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 16:24:01.264][24332][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:24:01.264] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:24:03.337][24332][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][302] [2025-09-26 16:24:03.337] [..\..\..\src\uart.cpp:302] get uart read data failed
+[2025-09-26 16:28:23.120][2420][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 16:28:51.217][22020][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 16:28:53.417][22020][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:28:53.417] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:29:02.357][22020][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:29:02.357] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:29:11.106][22020][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:29:11.106] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:29:14.916][22020][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:29:14.916] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:30:51.044][22020][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:30:51.044] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:30:59.584][22020][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:30:59.584] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 16:31:07.773][22020][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 16:31:07.773] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:09:47.663][22836][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 17:09:48.904][22836][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:09:48.904] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:09:51.822][22836][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:09:51.822] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:09:54.365][22836][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:09:54.365] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:09:56.824][22836][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:09:56.824] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:09:58.460][22836][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:09:58.460] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:10:00.399][22836][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:10:00.399] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:13:09.389][5248][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 17:13:16.287][3208][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 17:13:17.492][3208][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:13:17.492] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:14:24.250][19460][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 17:14:25.446][19460][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:14:25.446] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:15:34.319][24260][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 17:15:35.929][24260][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:15:35.929] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:16:25.629][23436][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 17:16:26.994][23436][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:16:26.994] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 17:19:31.647][24988][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 17:21:59.414][7312][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][259] This is a debug log .
+[2025-09-26 17:22:00.700][7312][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 17:22:00.700] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 18:02:20.586][25008][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][541] This is a debug log .
+[2025-09-26 18:02:22.216][25008][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 18:02:22.216] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 18:02:25.701][25008][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 18:02:25.701] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 18:55:42.866][8956][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 18:55:46.020][8956][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 18:55:46.020] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 18:55:50.217][8956][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 18:55:50.440][8956][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][400] [2025-09-26 18:55:50.440] [..\..\..\src\uart.cpp:400] get uart read data failed
+[2025-09-26 18:55:52.475][8956][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][302] [2025-09-26 18:55:52.475] [..\..\..\src\uart.cpp:302] get uart read data failed
+[2025-09-26 19:07:16.057][12808][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:08:10.515][12808][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:08:31.189][9200][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:08:33.067][9200][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:20:00.718][9200][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:23:50.287][9200][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:25:04.642][19704][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:26:12.056][19704][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:26:18.622][19704][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:26:22.759][19704][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:26:35.119][19704][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:28:16.264][19704][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:30:07.829][19964][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:30:12.498][19964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:32:19.909][24704][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:32:26.461][24704][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:33:10.172][4684][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:33:11.855][4684][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:33:16.935][4684][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:33:27.294][21964][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:33:37.139][21964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:33:43.208][21964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:33:49.366][21964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:33:58.529][21964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:34:05.863][21964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:34:18.319][21964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:34:26.817][21964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:34:37.638][21964][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:36:31.332][4728][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:36:36.431][4728][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:36:41.072][4728][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:36:53.478][6772][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:37:16.980][6772][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:37:29.449][6772][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:37:55.386][6772][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:38:01.349][6772][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:38:14.364][6772][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:38:32.889][20260][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:38:36.087][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:38:41.969][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:38:49.579][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:38:55.177][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:39:01.444][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:39:23.777][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:39:55.777][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:40:16.099][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:40:21.468][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:40:26.484][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:40:37.553][20260][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:41:53.554][17848][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:41:56.154][17848][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:42:03.137][17848][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:42:14.288][17848][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:42:46.319][24072][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:42:49.090][24072][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:42:53.645][24072][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:42:58.768][24072][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:43:08.647][24072][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:43:13.602][24072][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:43:18.977][24072][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:43:25.418][24072][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:43:38.484][24072][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:47:28.293][23940][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:47:30.367][23940][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:49:13.217][22576][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:49:19.228][22576][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:49:26.622][20600][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:50:18.462][20600][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:50:29.776][20600][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:50:37.717][20600][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:50:44.920][20600][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:51:17.007][20600][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:51:38.557][20600][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 19:58:24.852][21644][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 19:58:26.833][21644][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-26 19:58:26.833] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-26 19:59:38.032][22364][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][538] This is a debug log .
+[2025-09-26 19:59:40.259][22364][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:00:50.352][14560][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:00:53.339][14560][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:00:57.990][14560][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:01:06.396][23008][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:01:09.847][23008][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:03:59.909][23008][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:04:09.249][23008][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:04:47.434][20016][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][538] This is a debug log .
+[2025-09-26 20:04:49.736][20016][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:05:21.178][3908][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][537] This is a debug log .
+[2025-09-26 20:05:23.815][3908][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:05:29.182][3908][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:07:19.182][20124][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][537] This is a debug log .
+[2025-09-26 20:07:21.872][20124][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:10:00.253][1300][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][537] This is a debug log .
+[2025-09-26 20:10:01.723][1300][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-26 20:10:01.723] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-26 20:10:05.089][1300][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:18:14.824][1300][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-26 20:18:14.824] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-26 20:18:25.597][23384][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][537] This is a debug log .
+[2025-09-26 20:18:27.173][23384][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-26 20:18:27.173] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-26 20:18:29.685][23384][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:18:29.907][23384][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-26 20:18:29.907] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-26 20:18:30.768][23384][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-26 20:18:30.768] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-26 20:18:32.358][23384][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][291] [2025-09-26 20:18:32.358] [..\..\..\src\uart.cpp:291] get uart read data failed
+[2025-09-26 20:18:33.837][23384][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:18:38.828][23384][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:18:49.982][23384][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:22:51.443][24672][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][548] This is a debug log .
+[2025-09-26 20:22:53.748][24672][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:23:02.318][24672][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:30:31.278][24672][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:32:45.914][17140][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:32:47.908][17140][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:32:53.353][17140][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:33:16.271][17140][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:34:19.819][17140][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:34:27.277][17872][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:34:44.683][17872][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:40:19.633][13352][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:40:56.528][22628][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:40:59.632][22628][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:41:09.897][19208][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:41:31.853][20708][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:42:27.699][20100][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:42:33.734][20100][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:42:42.826][22892][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:42:49.792][22892][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:42:55.609][22892][CamManager][Debug][RefreshTempBtnClickedEvent][..\..\..\src\page_reg_ctrl.cpp][1265] 刷新寄存器: 名称=温度 ℃, 地址=0X44A209F4, 新值=1.00
+[2025-09-26 20:45:00.211][14176][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-26 20:45:02.657][14176][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][616] Serial port opened successfully
+[2025-09-26 20:45:23.474][23120][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][539] This is a debug log .
+[2025-09-27 13:37:59.639][6068][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-27 13:38:03.172][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:03.168] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:38:06.174][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:06.174] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:38:08.780][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:08.780] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:38:10.663][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:10.663] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:38:13.247][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:13.247] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:38:15.201][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:15.201] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:38:16.828][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:16.828] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:38:23.843][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:23.843] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:38:28.109][6068][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-27 13:38:28.109] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-27 13:43:32.750][15900][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:23:21.643][18204][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:23:42.749][1188][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:24:09.327][1188][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-28 09:24:09.327] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-28 09:29:45.424][19052][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:39:50.677][18508][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:40:11.415][2168][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:40:57.041][4332][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:42:09.771][4332][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:43:56.785][3324][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 09:44:08.881][6516][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 10:50:05.797][21728][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 11:13:19.038][4244][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 11:52:32.232][6224][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 11:52:41.571][22316][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 11:53:03.036][21660][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 13:54:54.676][10028][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 13:55:18.685][3116][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 13:55:44.846][24364][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 13:55:59.659][5764][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 13:56:19.088][20080][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 13:58:07.028][22200][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 13:59:27.449][22000][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 13:59:55.076][24400][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:00:28.797][8156][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:01:18.707][24644][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:04:12.978][13220][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:23:12.630][24548][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:23:16.353][24548][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-28 14:23:16.353] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-28 14:23:21.390][24548][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][389] [2025-09-28 14:23:21.390] [..\..\..\src\uart.cpp:389] get uart read data failed
+[2025-09-28 14:23:40.406][24740][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:24:28.223][15092][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:25:07.926][20072][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:26:07.864][18820][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:30:27.472][15624][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:31:19.748][21580][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:38:11.812][16680][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:38:49.641][17600][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:41:45.311][23604][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 14:41:54.276][23116][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:12:33.190][18312][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:14:14.898][9916][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:20:57.181][19728][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:50:27.209][21716][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:53:07.428][11172][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:54:17.167][24232][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:54:48.340][24148][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:55:05.898][22140][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:58:05.579][1496][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:58:36.589][3396][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 16:58:53.000][20324][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 17:00:54.841][2848][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 17:03:34.139][16024][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 17:05:19.208][18920][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 17:07:58.257][11408][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 17:09:26.061][16112][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 17:11:49.726][3636][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 17:12:25.466][11036][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][262] This is a debug log .
+[2025-09-28 17:13:32.429][20312][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:13:58.354][23108][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:14:13.742][10672][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:18:43.317][24540][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:26:39.228][25436][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:26:59.085][24688][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:27:01.707][24688][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-28 17:27:01.707] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-28 17:27:37.135][10888][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:27:49.440][25468][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:28:29.535][4884][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:28:46.369][4884][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-28 17:28:46.369] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-28 17:28:51.237][4884][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-28 17:28:51.237] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-28 17:29:23.554][21724][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:38:32.526][24476][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:39:03.317][9884][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:45:49.532][23904][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][263] This is a debug log .
+[2025-09-28 17:47:03.502][21184][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 17:47:25.800][18136][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 17:47:51.079][23336][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 17:47:54.030][21956][CamManager][Error][InitLibUsbInterface][..\..\..\src\usb.cpp][204] Failed to open usb device
+[2025-09-28 17:47:58.686][21956][CamManager][Error][InitLibUsbInterface][..\..\..\src\usb.cpp][204] Failed to open usb device
+[2025-09-28 17:48:02.167][21956][CamManager][Error][InitLibUsbInterface][..\..\..\src\usb.cpp][204] Failed to open usb device
+[2025-09-28 17:48:29.614][22708][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 17:52:21.984][24808][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 18:54:31.859][7076][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:09:25.950][23888][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:11:17.494][18804][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:32:23.508][9556][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:39:34.507][20676][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:41:09.874][23340][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:46:28.629][13120][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:50:24.159][21348][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:50:43.529][21348][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][619] Serial port opened successfully
+[2025-09-28 19:50:43.844][21348][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-28 19:50:43.844] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-28 19:50:45.873][21348][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-09-28 19:50:45.873] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-09-28 19:51:48.300][24268][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:51:53.730][17164][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:53:07.373][912][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 19:53:38.360][912][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][619] Serial port opened successfully
+[2025-09-28 19:53:38.685][912][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-28 19:53:38.685] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-28 19:53:40.694][912][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-09-28 19:53:40.694] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-09-28 19:53:55.786][912][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-28 19:53:55.786] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-28 19:53:58.976][912][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-28 19:53:58.976] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-28 19:55:03.073][8116][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 20:17:24.186][24752][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 21:02:00.397][25576][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-28 21:03:54.283][19908][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 09:00:50.778][17464][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 10:42:53.158][2412][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 10:47:16.782][20612][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 10:47:19.823][20612][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 10:47:19.823] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 10:48:09.694][20612][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 10:48:09.694] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 11:54:58.548][22816][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 11:55:43.761][22816][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 11:55:43.761] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 11:56:49.957][25200][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 11:56:55.259][25200][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 11:56:55.259] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 11:58:46.539][14924][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 13:21:07.804][25208][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 13:41:31.561][22340][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 13:41:54.248][22340][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 13:41:54.248] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 13:47:51.290][24916][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 13:49:48.524][25056][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 14:01:45.017][21136][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 14:01:46.577][21136][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 14:01:46.577] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 14:01:50.674][21136][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 14:01:50.674] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 14:02:19.624][23292][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 14:06:52.886][24856][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 14:07:08.081][24856][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 14:07:08.081] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 14:07:32.049][23532][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 14:07:46.049][23532][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 14:07:46.049] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 14:09:08.102][22880][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 14:11:38.612][23416][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:16:01.902][22852][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:16:06.226][22852][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 15:16:06.226] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 15:16:45.071][23004][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:16:49.002][23004][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 15:16:49.002] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 15:18:02.210][21820][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:18:13.536][22196][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:18:18.656][2844][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:18:23.819][21136][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:18:28.276][492][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:18:32.935][22816][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:19:30.323][20496][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:20:09.387][24520][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:20:10.771][24520][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 15:20:10.771] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 15:20:21.474][24368][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:45:38.865][24368][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:45:49.818][24084][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 15:45:54.279][24084][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 15:45:54.279] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 15:46:09.444][24084][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 15:46:09.444] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 15:46:11.539][24084][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 15:46:11.539] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 15:46:17.692][24084][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 15:46:17.692] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 16:17:36.187][15312][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 19:51:24.380][15312][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 19:51:24.380] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 19:51:26.975][15312][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 19:51:26.975] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 19:51:30.316][15312][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 19:51:30.316] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 19:53:10.799][15312][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-29 19:53:10.799] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-29 19:53:23.806][26500][CamManager][Error][InitLibUsbInterface][..\..\..\src\usb.cpp][204] Failed to open usb device
+[2025-09-29 19:58:09.142][25348][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 19:59:45.072][2996][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 19:59:53.933][1980][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 20:38:46.044][10032][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-29 21:26:38.572][21984][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 09:15:04.589][8220][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 09:15:52.982][16268][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 10:37:17.686][9516][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 10:37:38.239][4052][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 15:58:08.161][18744][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 15:58:09.488][18744][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-30 15:58:09.488] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-30 16:00:10.640][27008][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 16:00:12.319][27008][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-30 16:00:12.319] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-30 16:00:30.556][27816][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 16:00:31.919][27816][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-30 16:00:31.919] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-30 16:00:45.993][4956][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 16:00:47.702][4956][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-30 16:00:47.702] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-30 16:00:56.276][4956][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-30 16:00:56.276] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-30 16:02:13.570][27644][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 16:02:28.999][27644][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-09-30 16:02:28.999] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-09-30 17:31:31.864][13892][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-09-30 17:43:11.276][25704][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 11:21:48.654][25788][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 11:45:25.158][24984][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 11:47:28.752][15584][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 11:49:56.242][25840][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 11:51:37.714][6288][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 11:54:28.331][21816][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 13:21:47.330][11644][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 13:23:36.854][544][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 13:30:25.366][25928][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 13:30:27.233][25928][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-10-09 13:30:27.233] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-10-09 14:24:39.995][26328][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:24:43.938][26328][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-10-09 14:24:43.938] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-10-09 14:27:10.891][26328][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][619] Serial port opened successfully
+[2025-10-09 14:27:11.193][26328][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-10-09 14:27:11.193] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-10-09 14:27:13.201][26328][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-10-09 14:27:13.201] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-10-09 14:33:08.205][28292][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:50:56.027][26368][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:51:10.448][25544][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:51:29.021][2864][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:53:20.295][26388][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:54:19.463][10584][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:54:39.687][27008][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:55:18.009][22644][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 14:57:56.624][23920][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:01:06.020][2476][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:01:48.081][16284][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:05:07.598][22624][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:13:51.331][20816][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:14:46.084][23820][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:15:15.506][23304][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:17:10.211][8108][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:18:55.429][6960][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:22:13.291][20460][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:22:39.530][21720][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:23:24.010][27828][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:23:43.986][18584][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:25:38.606][5456][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 15:27:58.083][20676][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:00:27.530][28400][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:01:23.541][13508][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:19:16.941][19824][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:19:38.343][19496][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:21:50.055][25936][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:26:14.806][22220][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:26:37.017][22968][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:26:44.493][18220][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:28:32.089][25756][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:29:13.718][22252][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:29:49.225][28616][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:30:34.227][13484][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:49:11.943][21780][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:49:21.423][18632][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:50:16.060][25104][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:50:25.883][28100][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:50:56.848][25596][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:52:12.683][26480][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:54:10.278][2240][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 16:54:41.226][27076][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:01:25.102][7084][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:01:51.767][26840][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:02:33.834][7764][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:02:51.998][20620][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:03:07.697][28540][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:04:49.517][5040][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:10:39.127][26868][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:10:54.205][5040][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:13:20.665][8984][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:16:49.505][28656][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:24:07.914][25560][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:24:52.624][23764][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:30:40.335][23484][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:34:31.623][21584][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:37:52.897][26772][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:38:39.083][28384][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:39:15.768][28556][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:43:29.913][26808][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:46:03.956][16356][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:46:18.222][16356][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:46:18.546][16356][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-10-09 17:46:18.546] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-10-09 17:46:20.573][16356][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-10-09 17:46:20.573] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-10-09 17:46:23.591][16356][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:46:35.039][23216][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:46:58.084][508][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:47:00.345][508][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:47:04.123][508][CamManager][Error][ParseResponseCmdSheetWriteAck][..\..\..\src\uart.cpp][199] [2025-10-09 17:47:04.123] [..\..\..\src\uart.cpp:199] get uart read data failed
+[2025-10-09 17:47:06.148][508][CamManager][Error][ParseResponseCmdSheetWriteAck][..\..\..\src\uart.cpp][199] [2025-10-09 17:47:06.148] [..\..\..\src\uart.cpp:199] get uart read data failed
+[2025-10-09 17:47:09.501][508][CamManager][Error][ParseResponseCmdSheetWriteAck][..\..\..\src\uart.cpp][199] [2025-10-09 17:47:09.501] [..\..\..\src\uart.cpp:199] get uart read data failed
+[2025-10-09 17:47:09.883][508][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-10-09 17:47:09.883] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-10-09 17:47:40.371][27944][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:47:56.132][27944][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:48:01.233][27944][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:48:16.422][27944][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:50:31.210][27944][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:50:43.156][27944][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:50:54.906][8788][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:50:56.321][8788][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-10-09 17:50:56.321] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-10-09 17:51:01.603][8788][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:51:17.915][8788][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:55:40.338][10476][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:57:15.369][12808][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:57:17.128][12808][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:58:03.726][12808][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:58:13.805][12808][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:59:19.923][13912][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 17:59:30.500][13912][CamManager][Error][ReadCsvData][..\..\..\src\page_reg_ctrl.cpp][1128] [2025-10-09 17:59:30.495] [..\..\..\src\page_reg_ctrl.cpp:1128] get uart read data failed
+[2025-10-09 17:59:33.572][13912][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 17:59:35.636][13912][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-10-09 17:59:35.636] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-10-09 18:00:04.345][13912][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-10-09 18:00:04.345] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-10-09 18:00:26.300][13448][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 18:00:31.275][13448][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 18:00:31.582][13448][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-10-09 18:00:31.582] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-10-09 18:00:33.592][13448][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-10-09 18:00:33.592] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-10-09 18:01:15.345][13448][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 18:04:06.479][26052][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 18:04:09.237][26052][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 18:04:13.436][26052][CamManager][Error][ReadCsvData][..\..\..\src\page_reg_ctrl.cpp][1128] [2025-10-09 18:04:13.436] [..\..\..\src\page_reg_ctrl.cpp:1128] get uart read data failed
+[2025-10-09 18:04:23.325][26052][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 18:04:28.630][26052][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 18:50:39.315][27204][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 18:50:41.290][27204][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 18:50:45.404][27204][CamManager][Error][ReadCsvData][..\..\..\src\page_reg_ctrl.cpp][1128] [2025-10-09 18:50:45.404] [..\..\..\src\page_reg_ctrl.cpp:1128] get uart read data failed
+[2025-10-09 18:51:33.470][27204][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 18:53:48.589][16148][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 18:53:55.140][16148][CamManager][Error][ReadCsvData][..\..\..\src\page_reg_ctrl.cpp][1130] [2025-10-09 18:53:55.140] [..\..\..\src\page_reg_ctrl.cpp:1130] get uart read data failed
+[2025-10-09 18:54:07.841][16148][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 18:57:33.504][12520][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 18:59:06.545][12520][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:13:56.021][10168][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:14:31.033][3944][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:14:49.636][3944][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:16:32.269][20924][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:16:34.623][20924][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:17:40.265][14536][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:20:21.186][23364][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:20:29.181][23364][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:20:42.496][10812][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:22:58.689][27392][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:23:21.706][27392][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:26:29.316][24852][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:26:31.164][24852][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:26:47.455][28500][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:26:54.002][28500][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:27:13.251][28500][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:27:36.056][28500][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:27:53.386][24496][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:35:32.835][24496][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:41:23.538][21488][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:46:37.771][28352][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:46:42.412][28352][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:47:44.982][28352][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:47:45.508][28352][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-10-09 19:47:45.508] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-10-09 19:47:47.540][28352][CamManager][Error][ParseResponseCmdSheetReadAck][..\..\..\src\uart.cpp][295] [2025-10-09 19:47:47.540] [..\..\..\src\uart.cpp:295] get uart read data failed
+[2025-10-09 19:48:20.259][28352][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:50:34.774][28488][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:50:55.449][28488][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:50:55.960][28488][CamManager][Error][ParseResponseCmdVersionReadAck][..\..\..\src\uart.cpp][393] [2025-10-09 19:50:55.959] [..\..\..\src\uart.cpp:393] get uart read data failed
+[2025-10-09 19:51:56.605][28488][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][627] Serial port opened successfully
+[2025-10-09 19:52:05.497][15636][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:53:40.463][26416][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:53:45.384][26416][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 19:54:12.360][13416][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 19:59:46.994][6344][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:00:56.346][800][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:01:00.219][800][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 20:03:23.712][19468][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:03:25.400][19468][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 20:04:13.731][28552][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:04:15.785][28552][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 20:04:51.919][26776][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:08:42.513][28604][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:25:20.247][24100][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:25:22.877][24100][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 20:25:35.199][20528][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:25:41.007][26664][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:25:43.697][26664][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 20:26:00.006][26408][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:26:02.862][26408][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 20:26:21.340][26408][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 20:26:40.433][26408][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
+[2025-10-09 20:27:47.449][24124][CamManager][Debug][InitMainWindowWidgets][..\..\..\src\init_main_window.cpp][261] This is a debug log .
+[2025-10-09 20:27:49.903][24124][CamManager][Debug][UartComboBoxActivatedEvent][..\..\..\src\page_reg_ctrl.cpp][617] Serial port opened successfully
